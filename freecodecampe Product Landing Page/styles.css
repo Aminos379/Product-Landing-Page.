@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 999;
+    background-color: rgb(226, 230, 236);
+    padding: 10px 50px;
+}
+
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar ul li{
+    padding-left: 70px;
+    padding-top: 25px;
+    list-style: none;
+}
+
+section{
+    padding: 120px 20px;
+}
+
+#header .logo #logo{
+    margin-bottom: 55px;
+    font-weight: 700;
+    color: #3a6cf4;
+    cursor: pointer;
+}
+
+#header-img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+#nav-bar ul li .nav-link{
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 21px;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+#nav-bar ul li .nav-link:hover{
+    color: #601cfc;
+    transform: scale(1.2);
+}
+
+#log{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background: url(https://comarketing-news.fr/wp-content/uploads/gaming-france-1024x576.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+#log .log{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vh;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+}
+
+#log .log h2{
+    color:#3a6cf4;  
+    padding-top: 20px;
+}
+
+
+#log .log  #email, #log .log #submit,#log .log #name,#log .log #password{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin: 18px 0;
+}
+
+#log .log #submit{
+    background-color: #3a6cf4;
+    color: rgb(226, 230, 236);
+}
+
+#log .log #form{
+    width: 85%;
+}
+
+label{
+    font-size: 18px;
+    color: rgb(226, 230, 236);
+}
+
+#Features{
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#Features .cardes{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25px;
+    box-shadow: 0 5px 25px rgba(1,1,1,0.15);
+    justify-content: center;
+    width:330px;
+    align-items: center;
+    transition: 0.7s ease;
+    max-height: 600px;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: #3a6cf4;
+}
+
+#Features .Features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#Features .cardes:hover{
+    transform:scale(1.1)
+}
+
+#Features .cardes .card {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#Features .cardes .card img{
+    width: 70px;
+    height: 60px;
+}
+
+#Features .cardes .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#Features .cardes .content p{
+    text-align: center;
+}
+
+#Features .cardes .content h3{
+    font-size: 16px;
+    text-align: center;
+}
+
+#Showcase{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Showcase h2{
+    margin: 60px;
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.order{
+    display: flex;
+    width: 330px;
+    box-shadow: 0 5px 25px rgba(1,1,1,0.15);
+    margin: 25px;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    transition: 0.7s ease;
+    background-color: white;
+}
+
+.order:hover{
+    transform: scale(1.1);
+}
+
+.product img{
+    width: 300px;
+    height: 200px;
+}
+
+.info{
+    text-align: center;
+}
+
+.claim{
+    width: 80%;
+    color: white;
+    background-color: #3a6cf4;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: 0.7s ease;
+}
+
+.claim:hover{
+    transform: scale(1.1);
+}
+
+#Order_Now{
+    background: url(https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.copyright{
+    color: #3a6cf4;
+}
+h4{
+    font-size: 20px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#000016 ;
+}
+
+.nav-footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-footer ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+
+.nav-footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a6cf4;
+    transition: 0.7s ease;
+}
+
+.nav-footer ul li a:hover{
+    color: #601cfc;
+}
+
+
+@media(max-width:1300px){
+    #nav-bar ul li{
+        padding-left: 10px;
+    }
+    #nav-bar ul li .nav-link{
+        font-size: 18px;
+    }
+    #log h2{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:800px){
+    a{
+        font-size: 13px;
+    }
+    #header{
+        padding: 10px 5px;
+    }
+
+    #log .log{
+        width: 70vh;
+    }
+
+    #nav-bar ul li{
+        padding-left: 10px;
+    }
+
+    #nav-bar ul li .nav-link{
+        font-size: 13px;
+    }
+
+    h1{
+        font-size: 12px;
+    }
+
+    .nav-footer ul li a{
+        font-size: 12px;
+    }
+
+    h4{
+        font-size: 14px;
+    }
+
+    #footer{
+        padding: 20px 5px;
+    }
+
+    .nav-footer ul li{
+        margin-right: 10px;
+    }
+
+    #video{
+        width: 400px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+}
